@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Press_Start_2P } from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -9,6 +9,12 @@ const geistSans = Geist({
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
+  subsets: ["latin"],
+});
+
+const pressStart2P = Press_Start_2P({
+  variable:"--font-press_start_2p-regular",
+  weight:"400",
   subsets: ["latin"],
 });
 
@@ -24,8 +30,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head><link rel="stylesheet" href="./node_modules/nes.css/css/nes.min.css"></link><meta name="viewport" content="width=device-width, initial-scale=1.0" /></head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={` ${pressStart2P} antialiased`}
       >
         {children}
       </body>

@@ -1,0 +1,47 @@
+body {
+
+    background-image: url("css/img/subway.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-align:center;
+    color:rgb(235, 200, 47);
+
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+button {
+    border:60px;
+    border-color:rgb(80, 14, 14);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width:150px;
+    color:rgb(235, 200, 47);
+    font-weight: bolder;
+    background-color: rgb(51, 45, 58);
+}
+
+#increment-btn {
+    background:  rgb(51, 45, 58);
+}
+
+#save-btn {
+    background:  rgb(51, 45, 58);
+}
+
+#entry-el {
+    color:black;
+    font-weight: bold;
+    font-size: 30px;
+}
