@@ -9,7 +9,7 @@ import { useState } from "react";
     image: "/ilo.png",
     date: "2024",
     type: "acamdémique",
-    desc: "Projet inspiré de Blade Runner. Réalisé en HTML/CSS pur. Ce projet explore les esthétiques rétro-futuristes à travers une interface immersive.",
+    desc: "Projet inspiré de Blade Runner. Réalisé en HTML/CSS pur pour . Ce projet explore les esthétiques rétro-futuristes à travers une interface immersive.",
   },
   {
     title: "People Counter",
@@ -17,7 +17,7 @@ import { useState } from "react";
     image: "/ilo.png",
     date: "2024",
     type: "personnel",
-    desc: "Application de comptage de personnes via capteurs, simulée dans un environnement DOM simple.",
+    desc: "Application de comptage de personnes: imaginez vous êtes enquêteurs et vous devez compter le nombre de personnes qui utilise une ligne de transport",
   },
   {
     title: "Blackjack",
@@ -25,7 +25,7 @@ import { useState } from "react";
     image: "/ilo.png",
     date: "2024",
     type: "personnel",
-    desc: "Un jeu de Blackjack codé en JavaScript Vanilla. UI minimale, logique complète côté front.",
+    desc: "Un jeu de Blackjack codé en JavaScript Vanilla. UI minimale, logique très basique mais complète côté front.",
   },
 ];
 
@@ -75,7 +75,7 @@ export default function Projets() {
 
       <div className="lg:col-span-3 bg-base-300 ">
          <div className="nes-container is-dark with-title">
-        <p className="title">Container.is-dark</p>
+        <p className="title">A PROPOS</p>
         <p className="text-sm leading-relaxed">{project.desc}</p>
       </div>
       </div>

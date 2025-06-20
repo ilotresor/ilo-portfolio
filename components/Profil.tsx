@@ -84,7 +84,7 @@ function Profil() {
 
           {/* CHAT BOX */}
           <div className="bg-black text-xs p-3 h-64 overflow-auto space-y-1">
-            <p><span className="text-[#00ffcc]">J. O'NEIL:</span> <p>
+            <p> <p>
 il est évident que je ne maîtrise pas tous les téchnos cité ci dessus. J'ai été introduit au monde du développement grâce au web, 
 sachant que je ne voulais pas me limiter au web.
  J'ai l'aspiration de créer des applis et me spécialiser dans l'ia
