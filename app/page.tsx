@@ -25,7 +25,7 @@ export default function Home() {
     <div className="bg-base-300 text-sm ">
       
       <div role="tablist" className="tabs tabs-lift tabs-medium bg-base-100 m-1 ">
-      <a role="tab" className="tab tab-active border-2 border-[#00ffcc] shadow-[0_0_8px_#00ffcc] p-2"><span className="nes-text is-success">Ilo</span></a>
+      <a role="tab" className="tab tab-active border-2 border-[#00ffcc] shadow-[0_0_8px_#00ffcc] p-2"><span className="nes-text is-success">Ilo's case</span></a>
       <div className="tab-content border-base-300 m-1 p-2 border-2 border-green-500 shadow-[0_0_8px_#00ffcc] p-2">
 
     {/* name of each tab group should be unique */}

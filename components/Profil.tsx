@@ -27,7 +27,7 @@ function Profil() {
       <div className="flex gap-2">
         <div className="w-1/2">
           <Image
-            src="/ilo-pixel.png"
+            src="/cvpixel.png"
             alt="ilo pixel photo"
             width={300}
             height={300}
@@ -35,11 +35,19 @@ function Profil() {
           />
         </div>
         <div className="w-1/2 text-xs">
-          <p className="mb-1 border-b border-green-500">à la recherche d'une <br/>ALTERNANCE</p>
-          <p className="mb-1 border-b border-green-500"> BORDEAUX 33130 <br/> non véhiculée</p>
+          <p className="mb-1 border-b border-green-500">RECHERCHE : ALTERNANCE</p>
+          <p className="mb-1 border-b border-green-500">AGE : 20</p>
+          <p className="mb-1 border-b border-green-500"> LOCALISATION : BORDEAUX 33130 <br/> non véhiculée</p>
           <p className="mb-1 border-b border-green-500">Future étudiante à<br /><strong>CESI</strong> école d'ingénieurs</p>
           <strong className="mb-2 text-green-500"> DEVELOPPEUSE D'APPLICATIONS ████</strong>
+          <div className=" flex gap-4 justify-start border-b border-green-500 mb-8"> 
+              <Link href="https://github.com/ilotresor" target="_blank"><i className="nes-icon github"></i></Link>
+              <Link href="https://www.linkedin.com/in/ilo-randriamahenintsoa-b0424a332/" target="_blank"><i className="nes-icon linkedin "></i></Link>
+              <i className="nes-icon gmail"></i>
+              </div>
         </div>
+        
+        
       </div>
 
 
@@ -58,12 +66,6 @@ function Profil() {
             <p> étudiante en réorientation 💻✨<br/> 
             BUT: devenir une développeuse complète, curieuse et redoutablement efficace...</p>
           </div>
-
-        <div className=" flex gap-4 justify-start border-b border-green-500 mb-8"> 
-              <Link href="https://github.com/ilotresor" target="_blank"><i className="nes-icon github"></i></Link>
-              <Link href="https://www.linkedin.com/in/ilo-randriamahenintsoa-b0424a332/" target="_blank"><i className="nes-icon linkedin "></i></Link>
-              <i className="nes-icon gmail"></i>
-              </div>
 
         </div>
 
@@ -84,11 +86,12 @@ function Profil() {
 
           {/* CHAT BOX */}
           <div className="bg-black text-xs p-3 h-64 overflow-auto space-y-1">
-            <p> <p>
-il est évident que je ne maîtrise pas tous les téchnos cité ci dessus. J'ai été introduit au monde du développement grâce au web, 
-sachant que je ne voulais pas me limiter au web.
- J'ai l'aspiration de créer des applis et me spécialiser dans l'ia
-</p>
+            <p>
+IL EST ÉVIDENT QUE JE NE MAÎTRISE PAS ENCORE L'ENSEMBLE DES TECHNOLOGIES MENTIONNÉES CI-DESSUS. J'AI ÉTÉ INITIÉ AU MONDE DU DÉVELOPPEMENT PAR LE BIAIS DU WEB, 
+TOUT EN SACHANT QUE JE NE SOUHAITAIS PAS M'Y LIMITER. MON ASPIRATION EST DE CRÉER DES APPLICATIONS ET DE ME 
+SPÉCIALISER DANS LE DOMAINE DE L'INTELLIGENCE ARTIFICIELLE.
+
+
 </p>
             <p><span className="text-[#00ffcc]">YOU:</span> A LIFE, JIMMY, YOU KNOW WHAT THAT IS?...</p>
           </div>
@@ -97,7 +100,7 @@ sachant que je ne voulais pas me limiter au web.
           <div className="flex flex-col sm:flex-row items-stretch sm:items-center mt-2 gap-2">
             <input
               className="nes-input is-dark w-full"
-              placeholder="DON'T THINK TOO MUCH ABOUT IT"
+              placeholder="CECI EST EN COURS DE CONSTRUCTION"
             />
             <button className="nes-btn is-primary w-full sm:w-auto">SEND</button>
           </div>
@@ -105,7 +108,7 @@ sachant que je ne voulais pas me limiter au web.
       </div>
 
       <footer className="text-center text-xs mt-4 text-[#00ffcc]">
-        TOUT DROIT RESERVES
+        &copy; TOUT DROIT RESERVES
       </footer>
     </main>
 
